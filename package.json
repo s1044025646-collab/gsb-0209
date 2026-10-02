@@ -1,0 +1,26 @@
+{
+  "name": "polyhedral-exact",
+  "version": "1.0.0",
+  "description": "多面骰精确概率与有限轮重掷策略后端（TypeScript + Node.js + SQLite）",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "polyhedral": "src/cli/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node --no-warnings --experimental-strip-types src/server.ts",
+    "dev": "node --no-warnings --experimental-strip-types src/server.ts",
+    "test": "node --no-warnings --experimental-strip-types --test test/*.test.ts",
+    "demo": "node --no-warnings --experimental-strip-types scripts/demo.ts",
+    "cli": "node --no-warnings --experimental-strip-types src/cli/index.ts"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}

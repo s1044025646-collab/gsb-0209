@@ -1,0 +1,18 @@
+{
+  "name": "fair-d6-one-reroll",
+  "dice": [
+    {
+      "id": "d1",
+      "faces": [
+        { "value": 1, "weight": 1 },
+        { "value": 2, "weight": 1 },
+        { "value": 3, "weight": 1 },
+        { "value": 4, "weight": 1 },
+        { "value": 5, "weight": 1 },
+        { "value": 6, "weight": 1 }
+      ]
+    }
+  ],
+  "maxRerolls": 1,
+  "payoff": { "kind": "sum" }
+}

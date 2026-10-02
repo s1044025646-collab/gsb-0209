@@ -1,0 +1,21 @@
+{
+  "name": "weighted-two-dice-threshold",
+  "dice": [
+    {
+      "id": "low",
+      "faces": [
+        { "value": 1, "weight": 1 },
+        { "value": 2, "weight": 1 }
+      ]
+    },
+    {
+      "id": "high",
+      "faces": [
+        { "value": 1, "weight": 1 },
+        { "value": 10, "weight": 3 }
+      ]
+    }
+  ],
+  "maxRerolls": 1,
+  "payoff": { "kind": "threshold", "threshold": 10 }
+}
